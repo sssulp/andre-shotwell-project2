@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Limelight&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Show Me The Movie</title>
+</head>
+
+<body>
+
+    <!-- title hit -->
+    <header>
+        <div class="wrapper">
+            <div class="pageHeader">
+                <h1>Show Me The Movie</h1>
+
+                <div class="findMoviesContainer">
+                    <label for="movie"></label>
+                    <input type="text" id="movie" placeholder="Sherlock" onkeyup="movieApp.findMovies()">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- movie section -->
+    <section>
+        <div class="wrapper">
+            <!-- movie container -->
+            <div class="searchMovieContainer">
+                <ul id="searchList">
+                    <!-- movies populate here -->
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Created at Juno College &copy;</p>
+    </footer>
+    
+    <script src="javascript/scripts.js"></script>
+</body>
+</html>

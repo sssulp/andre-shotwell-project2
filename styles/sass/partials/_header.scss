@@ -1,0 +1,17 @@
+/* header styles */
+header {
+    background-image: url("../../project02/assets/theater1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    margin-bottom: 50px;
+}
+
+.pageHeader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 100px;
+}

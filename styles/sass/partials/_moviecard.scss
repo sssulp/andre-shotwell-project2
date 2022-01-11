@@ -1,0 +1,36 @@
+ul {
+    text-align: center;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+    margin: 0 auto;
+}
+
+li h3 {
+    background-color: white(255, 255, 255);
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 270px;
+    padding: 25px;
+}
+
+li p {
+    background-color: white(255, 255, 255);
+    color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 270px;
+    margin-bottom: 45px;
+}
+
+img {
+    height: 100%;
+    border: 10px solid black;
+}
